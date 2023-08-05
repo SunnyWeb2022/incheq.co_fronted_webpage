@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* html{
+    cursor:pointer;
+} */
+
+
+
+.under_hover1{
+    width:0%;
+    height: 2px;
+    background-color: aquamarine;
+    transition: all 2s;
+}
+nav.navbar ul li:hover .under_hover1{
+    width: 100%;
+    
+}
+
+.tab-content1{
+    width: 100%;
+    height: 0px;
+    display: none;
+    transition: all 5s;
+    margin: 4% 0px;
+}
+nav.navbar ul li:hover .tab-content1{
+    display: block;
+    height: 100px;
+
+    
+}
+.Get_in_Touch{
+    font-size: 10px;
+    /* padding: 10px 5%; */
+}
+
+
+h1{
+    font-family: DM Sans,sans-serif;
+    font-size: 7em;
+    font-weight: 500;
+    line-height: 98%;
+}
+
+
+.Place_order{
+    width: 20%;
+}
+@media screen and (max-width:992px) {
+    .Place_order{
+        width: 40%;
+    }
+    
+}
+
+
+
+/* our offices   */
+.our_offices{
+    width: 10%;
+}
+@media screen and (max-width:992px) {
+    .our_offices{
+        width: 40%;
+        margin: 0px auto;
+    }
+    
+}
+
+.paragraph{
+    font-weight: 400;
+}
+.melbourne_border-radius1{
+    border-radius: 30px 0px 0px 30px;
+}
+.melbourne_border-radius2{
+    border-radius: 0px 30px 30px 0px;
+}
+.melbourne_border-radius3{
+    border-radius: 30px 0px 0px 30px;
+}
+.melbourne_border-radius4{
+    border-radius: 0px 30px 30px 0px;
+}
+
+/* footer section  */
+.footer_paragraph{
+    color: rgb(166, 167, 168);
+    /* margin:5px 9%; */
+}
+.footer_list li{
+    list-style: none;
+}
+.footer_list  li .footer_border{
+    width: 0px;
+    height: 2px;
+    background-color: aquamarine;
+    transition: all 1s;
+}
+.footer_list li:hover .footer_border{
+    width: 100%;
+}
+.footer_text{
+    font-size: 12px;
+}
+.footer_link{
+    font-size: 14px;
+    color: #1d1c1c;
+    margin-right:10px;
+}
+.footer_anchortag a .footer_border{
+    width: 0px;
+    height: 2px;
+    background-color: aquamarine;
+    transition: all 1s;
+}
+.footer_anchortag a:hover .footer_border{
+    width: 100%;
+}
+input[type="email"]{
+    outline: none;
+    border: none;
+    border-bottom:1px  solid #05aeb5;
+}
+.footer_paragraph_right{
+  font-size: 20px;
+  font-weight: 400;
+}
+.social_icon .fa-brands{
+    /* width:10%;
+    height:10%; */
+    background-color:rgb(205, 239, 240);
+    color: #1d1c1c;
+    padding: 3% 3%;
+    margin: 0px 3%;
+    font-size: 20px;
+    border-radius: 5px 5px;
+
+}
