@@ -1,2 +1,2 @@
-# incheq.co_fronted_webpage
-I developed this fronted webpage by using html, Css, Javascript and MDBbootstrap5 
+# incheq.co_frontend_webpage
+I developed this Frontend webpage by using html, Css, Javascript and MDBbootstrap5 
